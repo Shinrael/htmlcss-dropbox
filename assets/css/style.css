@@ -21,7 +21,7 @@ header{
 }
 
 main{
-  padding-top: 100px;
+  padding-top: 130px;
   justify-content: center;
 }
 
@@ -45,7 +45,7 @@ h1{
   font-size: 4rem;
   width: 70%;
   margin-bottom: 50px;
-  padding-top: 180px;
+  padding-top: 230px;
 }
 
 h2{
@@ -54,7 +54,7 @@ h2{
   font-weight: 800;
 }
 
-.main-container{
+.container{
   justify-content: center;
   align-items: flex-start;
   width: 70%;
@@ -142,7 +142,7 @@ header .button-begin a {
 .hero-arrow{
   flex-direction: column;
   justify-content: flex-end;
-  height: 115px;
+  height: 90px;
   font-size: 2.5rem;
 }
 
@@ -156,4 +156,19 @@ header .button-begin a {
 
 main #plan-business p {
   padding: 50px 20px 20px 0;
+}
+
+.main-container{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.professional, .advanced, .enterprise{
+  width: 30%;
+  text-align: center;
+  border: 1px solid #D0D0D3;
+}
+
+main .main-container .top-icon{
+  padding: 10px 10px 10px 0;
 }
