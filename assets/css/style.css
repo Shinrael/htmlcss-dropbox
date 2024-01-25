@@ -37,6 +37,17 @@ a{
   text-decoration: none;
 }
 
+h1{
+  font-weight: 900;
+  font-size: 4rem;
+
+}
+
+.container{
+  align-items: center;
+  width: 80%;
+}
+
 .flex{
   display: flex;
 }
@@ -64,4 +75,11 @@ header a:hover{
 .button-begin a {
   display: flex;
   align-items: center;
+}
+
+/*Hero*/
+
+#hero{
+  margin: 80px auto;
+  justify-content: center;
 }
