@@ -20,7 +20,9 @@ header{
   z-index: 999;
 }
 
-
+main{
+  padding-top: 100px;
+}
 
 ul{
   list-style: none;
