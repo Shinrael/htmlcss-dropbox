@@ -54,6 +54,7 @@ h2{
   font-weight: 800;
 }
 
+
 .container{
   justify-content: center;
   align-items: flex-start;
@@ -62,6 +63,10 @@ h2{
 
 .flex{
   display: flex;
+}
+
+.gray{
+  color: gray;
 }
 
 /*Header*/
@@ -154,7 +159,7 @@ header .button-begin a {
   flex-direction: column;
 }
 
-main #plan-business p {
+main #plan-business .button-radio{
   padding: 50px 20px 20px 0;
 }
 
@@ -165,10 +170,31 @@ main #plan-business p {
 
 .professional, .advanced, .enterprise{
   width: 30%;
-  text-align: center;
+  
   border: 1px solid #D0D0D3;
 }
 
 main .main-container .top-icon{
   padding: 10px 10px 10px 0;
+}
+
+#plan-business .top-column{
+  text-align: center;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+#plan-business .center-column{
+  flex-direction: column;
+  padding: 30px 20px;
+  font-size: .8rem;
+}
+
+#plan-business .center-column h3{
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  
+}
+
+.center-icon{
+  font-size: .7rem;
 }
