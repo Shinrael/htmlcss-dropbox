@@ -65,9 +65,7 @@ h2{
   display: flex;
 }
 
-.gray{
-  color: gray;
-}
+
 
 /*Header*/
 
@@ -170,8 +168,18 @@ main #plan-business .button-radio{
 
 .professional, .advanced, .enterprise{
   width: 30%;
-  
+  font-weight: 500;
+  line-height: 30px;
   border: 1px solid #D0D0D3;
+}
+
+.enterprise-orizzontale{
+  width: 100%;
+}
+
+.gray{
+  color: gray;
+  padding-bottom: 50px;
 }
 
 main .main-container .top-icon{
@@ -183,18 +191,48 @@ main .main-container .top-icon{
   border-bottom: 1px solid #D0D0D3;
 }
 
-#plan-business .center-column{
+#plan-business .center-column, .bottom-column{
   flex-direction: column;
   padding: 30px 20px;
   font-size: .8rem;
-}
+  }
 
 #plan-business .center-column h3{
   padding-bottom: 20px;
-  font-size: 1.2rem;
-  
+  font-size: 1.2rem;  
 }
 
-.center-icon{
+#plan-business .prezzo{
+  font-weight: 600;
+}
+
+.center-icon, .check-blue{
   font-size: .7rem;
+  padding-right: 4px;
+}
+
+.main-button{
+  background-color: #0061FF;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  margin: 40px 0 30px;
+}
+
+.main-button:hover{
+  background-color: #317ffc;
+}
+
+.underline-link{
+  text-decoration: underline;
+}
+
+.border{
+  margin-left: 20px;
+  width: 50px;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+.check-blue{
+  color: #0061FF;
 }
