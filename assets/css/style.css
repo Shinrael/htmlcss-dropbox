@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
 }
 
 header{
@@ -59,7 +60,7 @@ h2{
 }
 
 h3{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 section{
@@ -164,6 +165,11 @@ header .button-begin a {
 
 /*Main*/
 
+.main-container{
+  width: 100%;
+  justify-content: space-between;
+}
+
 #plan-business{
   width: 51%;
   justify-content: center;
@@ -172,11 +178,6 @@ header .button-begin a {
 
 main #plan-business .button-radio{
   padding: 50px 20px 20px 0;
-}
-
-.main-container{
-  width: 100%;
-  justify-content: space-between;
 }
 
 .professional, .advanced, .enterprise{
@@ -293,17 +294,59 @@ main #plan-business .top-icon{
   width: 51%;
   }
 
-  #partner .image,.description{
-    width: 50%;
+#partner .image{
+    width: 60%;
   }
 
-  #partner .main-container .image img{
+#partner .main-container .image img{
     width: 100%;
     object-fit: contain;
   }
 
-  #partner .description{
-    padding: 0 40px;
+#partner .description{
+  flex-direction: column;
+  width: 40%;
+  padding: 60px 40px;
   }
 
+#partner .description span{
+  padding: 25px 0 30px;
+}
 
+.partner-button{
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  max-width: 160px;
+}
+
+/*Operation*/
+
+#operation{
+  width: 51%;
+}
+
+#operation .operation-box{
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+
+#operation .image-operation{
+  width: 30%;
+  flex-direction: column;
+}
+
+#operation .operation-center{
+  margin: 0 40px;
+}
+
+#operation .main-container .image-operation img{
+  object-fit: contain;
+}
+
+#operation .main-container .image-operation span{
+  padding-top: 40px;
+  
+}
