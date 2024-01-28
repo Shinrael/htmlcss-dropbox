@@ -350,3 +350,82 @@ main #plan-business .top-icon{
   padding-top: 40px;
   
 }
+
+/*Customers*/
+
+#customers{
+  width: 51%;
+}
+
+#customers .main-container{
+  width: 79%;
+}
+
+#customers h2{
+  padding-bottom: 75px;
+}
+
+.link-customers{
+  text-decoration: underline;
+}
+
+/*Team Customers*/
+
+#team-customers{
+  width: 100%;
+}
+
+.team-container{
+  width: 100%;
+  height: 620px;
+}
+
+.left-container-customers, .center-container-customers, .right-container-customers{
+  flex-wrap: wrap;
+  width: 33%; 
+  height: auto; 
+}
+
+#team-customers .team-container img{
+  width: 50%;
+  height: 50%;
+ 
+}
+
+.box-customers{
+  width: 50%;
+  
+}
+
+.designit{
+  background-image: url(../img/designit.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #A2D39B;
+}
+
+.arizona{
+  background-image: url(../img/arizona_state_university.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #61082B;
+}
+
+.florida{
+  background-image: url(../img/university_of_florida.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #0093CE;
+}
+
+.topps{
+  background-image: url(../img/topps.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #FF1C1C;
+}
+
