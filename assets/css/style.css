@@ -386,11 +386,6 @@ main #plan-business .top-icon{
   height: auto; 
 }
 
-#team-customers .team-container img{
-  width: 50%;
-  height: 50%;
- 
-}
 
 .box-customers{
   width: 50%;
@@ -399,33 +394,73 @@ main #plan-business .top-icon{
 
 .designit{
   background-image: url(../img/designit.svg);
-  background-size: contain;
+  background-size: 155px 110px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #A2D39B;
+  background-color: #5d2c64;
+  border: 15px solid #2f1632;
+  filter: invert(100%);
 }
 
 .arizona{
   background-image: url(../img/arizona_state_university.svg);
-  background-size: contain;
+  background-size: 155px 110px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #61082B;
+  background-color: #9ef7d4; 
+  filter: invert(100%);
 }
 
 .florida{
   background-image: url(../img/university_of_florida.svg);
-  background-size: contain;
+  background-size: 150px 25px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #0093CE;
+  background-color: #ff6c31;
+  filter: invert(100%);
 }
 
 .topps{
   background-image: url(../img/topps.svg);
-  background-size: contain;
+  background-size: 155px 110px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #FF1C1C;
+  background-color: #00e3e3;
+  filter: invert(100%);
 }
 
+.right-container-customers .wbr{
+  background-image: url(../img/world_bicycle_relief.svg);
+  background-size: 155px 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #2affe0;
+  filter: invert(100%);
+}
+
+.right-container-customers .hearst{
+  background-image: url(../img/hearst_corp.svg);
+  background-size: 155px 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #4b2f18;
+  filter: invert(100%);
+}
+
+.right-container-customers .lonely{
+  background-image: url(../img/lonely_planet.svg);
+  background-size: 155px 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f2db7e;
+  filter: invert(100%);
+}
+
+.right-container-customers .clear{
+  background-image: url(../img/clear_channel.svg);
+  background-size: 155px 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #0027cf;
+  filter: invert(100%);
+}
