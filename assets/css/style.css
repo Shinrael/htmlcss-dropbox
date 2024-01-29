@@ -519,3 +519,20 @@ main #plan-business .top-icon{
   max-height: 45px;
   padding: 10px 50px;
 }
+
+/*Questions*/
+
+#questions{
+  width: 51%;
+}
+
+#questions .main-container{
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+}
+
+#questions .main-container h2{
+  padding-bottom: 70px;
+  
+}
