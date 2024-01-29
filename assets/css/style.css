@@ -529,10 +529,19 @@ main #plan-business .top-icon{
 #questions .main-container{
   flex-direction: column;
   justify-content: flex-start;
-  border-bottom: 1px solid black;
 }
 
 #questions .main-container h2{
-  padding-bottom: 70px;
-  
+  padding-bottom: 10px;
+}
+
+.main-container .row-questions{
+  border-bottom: 1px solid black;
+  padding: 45px 0;
+  justify-content: space-between;
+}
+
+.fa-chevron-down{
+  padding-right: 50px;
+  font-size: .7rem;
 }
