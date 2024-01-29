@@ -78,7 +78,9 @@ section{
   display: flex;
 }
 
-
+.ar{
+  aspect-ratio: 1/1;
+}
 
 /*Header*/
 
@@ -313,12 +315,13 @@ main #plan-business .top-icon{
   padding: 25px 0 30px;
 }
 
-.partner-button{
+.white-button{
   padding: 10px;
   border: 1px solid black;
   text-align: center;
   color: black;
   max-width: 160px;
+  background-color: white;
 }
 
 /*Operation*/
@@ -382,14 +385,14 @@ main #plan-business .top-icon{
 
 .left-container-customers, .center-container-customers, .right-container-customers{
   flex-wrap: wrap;
-  width: 33%; 
+  width: 34%; 
   height: auto; 
 }
 
 
 .box-customers{
   width: 50%;
-  
+  height: 310px;
 }
 
 .designit{
@@ -463,4 +466,56 @@ main #plan-business .top-icon{
   background-position: center center;
   background-color: #0027cf;
   filter: invert(100%);
+}
+
+.team-container .center-container-customers{
+  background-color:#F5F5F5;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.team-container .center-container-customers img{
+  width: 260px;
+  height: 80px;
+  margin: 50px;
+}
+
+.customers-border{
+  border-bottom: 1px solid #D0D0D3;
+  margin-left: 50px;
+  width: 100px;
+}
+.center-container-customers span:first-of-type{
+  padding: 50px 50px 60px;
+}
+
+.center-container-customers span:last-of-type{
+  padding: 0 50px;
+}
+
+#team-customers .try-container{
+  width: 100%;
+  height: 360px;
+  background-color: #B4D0E7;
+  justify-content: center;
+  align-items: center;
+}
+
+.try-container .main-container{
+  width: 50%;
+}
+
+.try-container h2{
+  color: #61082B;
+  width: 60%;
+}
+
+.try-container .main-container .button-b{
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 45px;
+  padding: 10px 50px;
 }
