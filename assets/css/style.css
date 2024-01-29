@@ -109,6 +109,7 @@ header .button-begin a {
   display: flex;
   align-items: center;
   color: white;
+  
 }
 
 /*Hero*/
@@ -558,7 +559,7 @@ footer{
 }
 
 .footer-container{
-  width: 80%;
+  width: 70%;
   justify-content: center;
   align-items: flex-start;
 }
@@ -569,7 +570,8 @@ footer{
   justify-content: center;
   align-items: flex-start;
   line-height: 35px;
-  padding-top: 105px;
+  padding-top: 95px;
+  padding-left: 30px;
 }
 
 footer h3{
