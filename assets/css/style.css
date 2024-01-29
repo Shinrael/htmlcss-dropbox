@@ -88,6 +88,10 @@ header .menu-left a, header .menu-right a{
   color: black;
 }
 
+header ul{
+  align-items: center;
+}
+
 .menu-right{
   margin-right: 10px;
 }
@@ -219,7 +223,7 @@ main #plan-business .top-icon{
 #plan-business .center-column, .bottom-column{
   flex-direction: column;
   padding: 30px 20px;
-  font-size: .8rem;
+  font-size: .9rem;
   }
 
   #plan-business .center-column-orizzontale{
@@ -240,6 +244,10 @@ main #plan-business .top-icon{
 .center-icon, .check-blue{
   font-size: .7rem;
   padding-right: 4px;
+}
+
+#plan-business .fa-share-nodes, .fa-folder{
+  padding-top: 10px;
 }
 
 
